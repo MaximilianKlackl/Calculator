@@ -54,54 +54,59 @@
     cursor: text;
 }
 
-#divide{
-    background-color: #50A4AE;
+#divide, #plus, #plus, #modulo, #binary, #decimal, #minus, #multiply, #equal{
     border-radius: 100px;
     width: 60px;
     margin: 0 auto;
     height: 60px;
     line-height: 60px;
+}
+
+#divide{
+    background-color: #50A4AE;
 }
 
 #plus{
     background-color: #F0A500;
-    border-radius: 100px;
-    width: 60px;
-    margin: 0 auto;
-    height: 60px;
-    line-height: 60px;
+}
+
+#modulo{
+    background-color: rgb(220, 220, 220);
+}
+
+#binary{
+    background-color: rgb(220, 220, 220);
+}
+
+#decimal{
+    background-color: rgb(220, 220, 220);
 }
 
 #minus{
     background-color: #EA8B7C;
-    border-radius: 100px;
-    width: 60px;
-    margin: 0 auto;
-    height: 60px;
-    line-height: 60px;
 }
 
 #multiply{
     background-color: #8493E9;
-    border-radius: 100px;
-    width: 60px;
-    margin: 0 auto;
-    height: 60px;
-    line-height: 60px;
 }
 
 #equal{
     background-color: #866EA2;
-    border-radius: 100px;
-    width: 60px;
-    margin: 0 auto;
-    height: 60px;
-    line-height: 60px;
 }
 
 .space
 {
     cursor: none;
+}
+
+#footer{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    font-weight: bold;
+    width: 200px;
+    position: absolute;
+    bottom: 0px;
+    margin: 0 auto;
 }
 
 

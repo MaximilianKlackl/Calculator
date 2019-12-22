@@ -74,3 +74,10 @@ function append(e)
     }
 }
 
+function toBinary(){
+    resultDiv.innerHTML = (calculation >>> 0).toString(2)
+}
+
+function toDecimal(){
+    resultDiv.innerHTML = parseInt(calculation, 2);
+}

@@ -8,8 +8,8 @@
     <div class="container">
         <div class="item" id="calculation"><span id="calc-span"></span></div>
         <div class="item" id="result"><span id="result-span"></span></div>
-        <div class="item" class="space"></div>
-        <div class="item"></div>
+        <div class="item"><div id="binary" onclick="toDecimal()">d</div></div>
+        <div class="item"><div id="decimal" onclick="toBinary()">b</div></div>
         <div class="item"><div id="modulo" onclick="append(event)">%</div></div>
         <div class="item"><div id="divide" onclick="append(event)">÷</div></div>
         <div class="item"><div id="seven" onclick="append(event)">7</div></div>
@@ -24,10 +24,14 @@
         <div class="item"><div id="two" onclick="append(event)">2</div></div>
         <div class="item"><div id="three" onclick="append(event)">3</div></div>
         <div class="item"><div id="plus" onclick="append(event)">+</div></div>
-        <div class="item" class="space"></div>
+        <div class="item"></div>
         <div class="item"><div id="null" onclick="append(event)">0</div></div>
-        <div class="item" class="space"></div>
+        <div class="item"></div>
         <div class="item"><div id="equal" onclick="append(event)">=</div></div>
+    </div>
+    <div id="footer">
+        <div>* d - to decimal</div>
+        <div>* b - to binary</div>
     </div>
     <script src="app.js"></script>
 </body>
