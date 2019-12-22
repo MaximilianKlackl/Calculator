@@ -12,7 +12,7 @@ function keyPressDown(e)
 
     if(e.keyCode == 8)
     {
-        calculation = calculation.substring(0, str.length - 1);
+        calculation = calculation.slice(0, -1); 
         calcDiv.innerHTML = calculation;
     }
     if(e.keyCode == 13)
